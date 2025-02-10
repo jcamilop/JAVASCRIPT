@@ -43,4 +43,21 @@ if (edad <= 12) {
 */
 
 
-let 
+let mes = 1
+switch (mes){
+    case 1:
+        console.log('es enero');
+        break;
+        case 2:
+            console.log('es febrero')
+            break;
+            case 3:
+                console.log('es marzo')
+                break;
+                case 4:
+                    console.log('es abril')
+                    break;
+                    case 5:
+                        console.log('es mayo')
+                        break;
+}
