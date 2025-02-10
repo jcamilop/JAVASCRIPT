@@ -17,9 +17,13 @@ console.log(typeof(tiene_trabajo));
 console.log(nombre + ' '  + edad + ' ' + tiene_trabajo);
 */
 
+//----------------------------------------------------------------
+
+
 // condicion if, else if y else
 
-nombre = 'camilo';
+
+/*nombre = 'camilo';
 edad = 8;
 
 if (edad <= 12) {
@@ -31,3 +35,12 @@ if (edad <= 12) {
 } else {
     console.log(nombre + ' es una anciano');
 }
+*/
+
+//----------------------------------------------------------------- 
+
+/* SENTENCIA SWITCH
+*/
+
+
+let 
