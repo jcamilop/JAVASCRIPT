@@ -20,7 +20,7 @@ console.log(nombre + ' '  + edad + ' ' + tiene_trabajo);
 //----------------------------------------------------------------
 
 
-// condicion if, else if y else
+//                  condicion if, else if y else
 
 
 /*nombre = 'camilo';
@@ -39,10 +39,10 @@ if (edad <= 12) {
 
 //----------------------------------------------------------------- 
 
-/* SENTENCIA SWITCH
+/*                  SENTENCIA SWITCH
 */
 
-
+/*
 let mes = 1
 switch (mes){
     case 1:
@@ -60,4 +60,20 @@ switch (mes){
                     case 5:
                         console.log('es mayo')
                         break;
+}
+*/
+//------------------------------------------------------------
+
+//                  SENTENCIA FOR
+
+/*
+for (let x = 1; x <= 10; x += 1){
+    console.log(x)
+}
+*/
+
+// EJEMPLO 2
+i = frutas = ['manzana', 'pera', 'mango', 'piña']
+for (i = 0; i <= frutas.length; i += 2){
+    console.log(frutas[i])
 }
