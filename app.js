@@ -73,7 +73,17 @@ for (let x = 1; x <= 10; x += 1){
 */
 
 // EJEMPLO 2
+/*
 i = frutas = ['manzana', 'pera', 'mango', 'piña']
 for (i = 0; i <= frutas.length; i += 2){
     console.log(frutas[i])
+}
+*/
+
+// SENTENCIA WHILE
+
+let x = 0
+while (x <= 10) {
+    console.log(x)
+    x += 1;
 }
