@@ -81,9 +81,10 @@ for (i = 0; i <= frutas.length; i += 2){
 */
 
 // SENTENCIA WHILE
-
+/*
 let x = 0
 while (x <= 10) {
     console.log(x)
     x += 1;
 }
+*/
