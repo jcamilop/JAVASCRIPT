@@ -30,8 +30,16 @@ saludo();
 let msj = saludo()
 console.log(msj);
 */
+/*
 function sumar(a, b, c){
     return a + b + c;
 }
 let resultado = sumar(1 , 5 , 3);
 console.log(resultado);
+*/
+function saludar(nombre) {  // "nombre" es un parámetro
+    console.log("Hola, " + nombre + "!");
+}
+
+saludar("Juan");  // "Juan" es un argumento
+saludar("Ana");   // "Ana" es otro argumento
