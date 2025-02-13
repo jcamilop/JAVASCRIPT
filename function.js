@@ -7,7 +7,7 @@ function saludo(mensaje) {
 let mensaje = 'todos son bienvenidos';
 saludo(mensaje);
 */
-/*nction suma(resultados) {
+/*function suma(resultados) {
     console.log(resultado);
 }
 n1 = 10
@@ -20,11 +20,18 @@ suma(resultado);
 function saludo(){
     console.log('hola a todos');
 }
+
 saludo();
 */
 // forma 3
-function saludo(){
+/*nction saludo(){
     return 'hola bienvenidos'
 }
 let msj = saludo()
 console.log(msj);
+*/
+function sumar(a, b, c){
+    return a + b + c;
+}
+let resultado = sumar(1 , 5 , 3);
+console.log(resultado);
