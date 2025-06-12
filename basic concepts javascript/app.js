@@ -79,12 +79,43 @@ for (i = 0; i <= frutas.length; i += 2){
     console.log(frutas[i])
 }
 */
+//--------------------------------------------
 
-// SENTENCIA WHILE
+//                 SENTENCIA WHILE
 /*
 let x = 0
 while (x <= 10) {
     console.log(x)
     x += 1;
 }
+*/
+//------------------------------------------------
+
+//                  SALIDAS DE JS
+
+// CONSOLE.LOG()
+/*
+let a, b, c;
+a = 5;
+b = 10;
+c = a + b 
+console.log(c)
+
+console.log('hola mundo');
+console.log(5 + 5);
+*/
+
+
+//OUTPUT ALERT()
+/*
+alert("¡Bienvenido a mi sitio web!");
+let resultadoSuma = 5 + 6;
+alert("La suma es: " + resultadoSuma);
+*/
+/*
+let a, b, c;
+a = 5;
+b = 6;
+c = a + b;
+document.getElementById("demo1").innerHTML = c;
 */
