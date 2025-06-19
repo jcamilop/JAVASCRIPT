@@ -118,4 +118,22 @@ a = 5;
 b = 6;
 c = a + b;
 document.getElementById("demo1").innerHTML = c;
+document.getElementById("demo2").innerHTML = "hola mundo";
+}
+*/
+//---------------------------------------------
+
+//            OBJETOS JS
+
+/*
+const persona = {
+primer_nombre : "juan",
+segundo_nombre : "camilo",
+años : 25,
+ciudad : "medellin",
+nombre_completo : function() {
+    return "el primer nombre es " + this.primer_nombre + " y el segundo es " + this.segundo_nombre;
+    }
+};
+document.getElementById("demo1").innerHTML = persona.nombre_completo();
 */
