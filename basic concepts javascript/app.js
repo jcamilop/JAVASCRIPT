@@ -123,8 +123,17 @@ document.getElementById("demo2").innerHTML = "hola mundo";
 */
 //---------------------------------------------
 
-//            OBJETOS JS
+//              OBJETOS JS
 
+/*
+const persona = {
+primer_nombre : "juan",
+segundo_nombre : "camilo",
+años : 25
+}
+*/
+
+//METODOS DE OBJETOS ----
 /*
 const persona = {
 primer_nombre : "juan",
@@ -136,4 +145,34 @@ nombre_completo : function() {
     }
 };
 document.getElementById("demo1").innerHTML = persona.nombre_completo();
+*/
+
+//-------EJEMPLO 2-------
+/*
+const carro = {
+    marca: "mercedes",
+    modelo: 2026,
+    cilindraje: 3000,
+    color: "plata",
+    t_propieda: function(){
+        return "carro marca " + this.marca + " del " + this.modelo + " de color " + this.color;
+    }
+}
+document.getElementById("demo1").innerHTML = carro;
+*/
+
+//------ VISUALIZACION DE OBJETOS ----
+//POR MEDIO DE UN BUCLE
+/*
+const moto = {
+    marca: "yamaha",
+    modelo: 2026,
+    color: "azul"
+}
+
+let text = " ";
+for (let x in moto) {
+    text += moto[x] + " ";
+}; 
+document.getElementById("demo1").innerHTML = text;
 */
