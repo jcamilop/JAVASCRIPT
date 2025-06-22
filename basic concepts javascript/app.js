@@ -176,3 +176,13 @@ for (let x in moto) {
 }; 
 document.getElementById("demo1").innerHTML = text;
 */
+//USANDO OBJECT.VALUES()
+/*
+const moto = {
+    marca: "yamaha",
+    modelo: 2026,
+    color: "negro"
+}
+const myArray = Object.values(moto);
+document.getElementById("demo1").innerHTML = myArray;
+*/
