@@ -186,3 +186,18 @@ const moto = {
 const myArray = Object.values(moto);
 document.getElementById("demo1").innerHTML = myArray;
 */
+
+//CONSTRUCTORES DE OBJETOS
+    //sirve para crear muchos objetos del mismo tipo
+/*
+function persona(nombre, apellido, años, ojos) {
+    this.primernombre = nombre;
+    this.primerapellido = apellido;
+    this.cuantos_años = años;
+    this.color_ojos = ojos
+}
+const cliente = new persona ("clara", "gaviria", 56, "azul");
+
+document.getElementById("demo1").innerHTML = 
+"la señora " + cliente.primernombre + " tiene una edad de " + cliente.cuantos_años + " años.";
+*/
